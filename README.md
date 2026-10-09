@@ -1,17 +1,24 @@
-# campusmate
+# CampusMate-Flutter
 
-A new Flutter project.
+A Flutter application developed as part of the
+UI Design using Flutter Lab (CS506PC).
 
-## Getting Started
+## Experiments Progress
 
-This project is a starting point for a Flutter application.
+| No. | Experiment | Status |
+|---|---|---|
+| 1 | Dart Basics | In Progress |
+| 2 | Flutter Widgets and Layouts | Pending |
+| 3 | Text and Image Widgets | Pending |
+| 4 | Row and Column | Pending |
+| 5 | Stack and Container | Pending |
+| 6 | Input Widgets | Pending |
+| 7 | Buttons and Events | Pending |
+| 8 | Navigation | Pending |
+| 9 | Lists and Cards | Pending |
+| 10 | Mini Project | Pending |
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Technologies
+- Flutter
+- Dart
+- Git and GitHub
