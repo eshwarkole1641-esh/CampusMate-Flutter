@@ -35,7 +35,7 @@ class _InputWidgetsScreenState extends State<InputWidgetsScreen> {
       const SizedBox(height: 20),
       FilledButton(onPressed: () {
         final name = _nameController.text.trim();
-        ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(name.isEmpty ? 'Enter a name to preview your input.' : 'Hello $name! Selected: $_year. Notifications: \${_notifications ? 'On' : 'Off'}.')));
+        ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(name.isEmpty ? 'Enter a name to preview your input.' : 'Hello $name! Selected: $_year. Notifications: ${_notifications ? 'On' : 'Off'}.')));
       }, child: const Text('Preview Input')),
     ]),
   );
