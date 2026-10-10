@@ -21,7 +21,7 @@ class ListsCardsScreen extends StatelessWidget {
           title: Text(course.$1),
           subtitle: Text(course.$2),
           trailing: const Icon(Icons.chevron_right),
-          onTap: () => ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text('Selected: \${course.$1}'))),
+          onTap: () => ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text('Selected: ${course.$1}'))),
         )),
     ]),
   );
