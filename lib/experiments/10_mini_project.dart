@@ -15,7 +15,7 @@ class _MiniProjectScreenState extends State<MiniProjectScreen> {
   void dispose() { _nameController.dispose(); _emailController.dispose(); _phoneController.dispose(); super.dispose(); }
   void _submitForm() {
     if (!_formKey.currentState!.validate()) return;
-    ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text('Registration preview saved for \${_nameController.text.trim()}')));
+    ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text('Registration preview saved for ${_nameController.text.trim()}')));
   }
   @override
   Widget build(BuildContext context) => Scaffold(
