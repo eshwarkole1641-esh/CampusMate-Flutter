@@ -107,7 +107,7 @@ class HomeScreen extends StatelessWidget {
                       contentPadding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
                       leading: CircleAvatar(
                         backgroundColor: Theme.of(context).colorScheme.primaryContainer,
-                        child: Text('\${experiment.number}', style: TextStyle(color: Theme.of(context).colorScheme.onPrimaryContainer, fontWeight: FontWeight.bold)),
+                        child: Text('${experiment.number}', style: TextStyle(color: Theme.of(context).colorScheme.onPrimaryContainer, fontWeight: FontWeight.bold)),
                       ),
                       title: Text(experiment.title, style: const TextStyle(fontWeight: FontWeight.w600)),
                       subtitle: Padding(padding: const EdgeInsets.only(top: 4), child: Text(experiment.description)),
