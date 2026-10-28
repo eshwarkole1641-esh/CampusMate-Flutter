@@ -1,24 +1,20 @@
 # Experiment 1 — Dart Basics
 
 ## Aim
-
 Practice Dart variables, data types, arithmetic operators, print statements, and string interpolation.
 
 ## Concepts covered
-
-String, int, double, bool, arithmetic operators, print(), and string interpolation.
+`String`, `int`, `double`, `bool`, arithmetic operators, `print()`, and string interpolation.
 
 ## Source code
-
 - Submission copy: [`dart_basics.dart`](./dart_basics.dart)
-- Integrated app implementation: [`lib/experiments/dart_basics.dart`](../lib/experiments/dart_basics.dart)
+- Original Dart console source: [`lib/experiments/dart_basics.dart`](../lib/experiments/dart_basics.dart)
+- CampusMate visual demonstration: the private `_DartBasicsScreen` class in [`lib/main.dart`](../lib/main.dart)
 
-The submission copy is included to match the experiment-wise structure required for the lab. The integrated implementation under `lib/experiments/` is what the CampusMate home screen launches.
+The standalone Dart source prints sample student information and arithmetic results in the terminal. The CampusMate home screen also contains a Flutter page that visually demonstrates the values and operations; it is a separate UI demonstration.
 
 ## Output screenshot
-
-Capture this experiment running in the Flutter app and save the genuine screenshot as [`screenshots/output.png`](./screenshots/output.png). See [screenshot instructions](./screenshots/README.md). Screenshots are intentionally marked pending until captured from an actual run.
+For the core Dart experiment, run `dart run lib/experiments/dart_basics.dart` from the repository root and capture the actual terminal output. Save it as [`screenshots/output.png`](./screenshots/output.png). The screenshot is pending until captured from a real run.
 
 ## Verification
-
-From the repository root, run `flutter pub get`, `flutter analyze`, and `flutter test`. Launch the application and open this experiment from the CampusMate home screen where applicable.
+Run `dart run lib/experiments/dart_basics.dart` from the repository root. To verify the Flutter app as a whole, also run `flutter pub get`, `flutter analyze`, and `flutter test`.
