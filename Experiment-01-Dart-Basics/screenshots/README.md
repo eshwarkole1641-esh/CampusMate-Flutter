@@ -1,11 +1,10 @@
 # Experiment 1 output screenshot
 
-Save a genuine screenshot of Experiment 1 running in the Flutter app here as `output.png`.
+For this experiment, capture the actual Dart console output.
 
-Suggested process:
-1. Run `flutter run -d chrome` from the repository root.
-2. Open **Dart Basics** from the CampusMate home screen, if this is an app screen.
-3. Capture the visible output from the running app.
-4. Add the image at `screenshots/output.png`.
+1. From the repository root, run `dart run lib/experiments/dart_basics.dart`.
+2. Confirm the terminal displays the welcome message, student details, and arithmetic results.
+3. Capture the terminal output and save it here as `output.png`.
+4. Commit the actual screenshot after checking it.
 
-Do not replace this instruction with a generated mockup; the submission requires evidence of the actual app output.
+The CampusMate UI also contains a visual demonstration of these values, but the standalone Dart console output is the direct evidence for this experiment. Do not use a mockup instead of actual output evidence.
