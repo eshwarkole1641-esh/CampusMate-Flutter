@@ -1,5 +1,31 @@
 import 'package:flutter/material.dart';
 
+void main() {
+  runApp(const MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      title: 'CampusMate',
+      theme: ThemeData(
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
+        useMaterial3: true,
+      ),
+      // This tells the app to open your Experiment 9 screen
+      home: const ListsCardsScreen(),
+    );
+  }
+}
+
+// ==========================================
+// YOUR EXPERIMENT 9 CODE STARTS HERE
+// ==========================================
+
 class ListsCardsScreen extends StatelessWidget {
   const ListsCardsScreen({super.key});
   static const _courses = [
