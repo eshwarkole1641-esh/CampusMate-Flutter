@@ -1,5 +1,31 @@
 import 'package:flutter/material.dart';
 
+void main() {
+  runApp(const MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      title: 'CampusMate',
+      theme: ThemeData(
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
+        useMaterial3: true,
+      ),
+      // This tells the app to open your Experiment 10 screen
+      home: const MiniProjectScreen(),
+    );
+  }
+}
+
+// ==========================================
+// YOUR EXPERIMENT 10 CODE STARTS HERE
+// ==========================================
+
 class MiniProjectScreen extends StatefulWidget {
   const MiniProjectScreen({super.key});
   @override
